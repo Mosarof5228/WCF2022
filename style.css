@@ -162,7 +162,22 @@ body{
     font-weight: 500;
     color:gold
 }
+.view-all > button{
 
+    visibility: hidden;
+    padding:20px 60px;
+    font-size:40px;
+    background-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.view-all{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
 
 
 
@@ -227,5 +242,79 @@ body{
         font-size:18px;
         align-items: center;
     }
+    .view-all > button{
+        visibility: hidden;
+    }
 } 
 
+@media only screen and (min-width:676px) and (max-width:992px) {
+    .col-1-title{
+        font-size:1em
+    }
+    .col-1-para{
+        font-size:12px;
+        width:100px;
+        height:50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .main-container{
+        display:flex;
+        flex-direction: column;
+
+    }
+   
+    .left-site-link{
+        display:flex;
+        flex-direction: row;;
+        background-color:white;
+        justify-content: center;
+        max-width:unset;
+        height:100px;
+        width:auto;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        
+    }
+    .left-site-link button{
+        
+        margin-left:20px;
+        width:400px;
+        
+    }
+    .left-site-link  button a{
+    font-size:30px;
+    font-weight: bold;
+    padding:5px 10px;
+    }
+    #special{
+        background-color:red;
+    }
+    .right-site-blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .view-all > button{
+        visibility: visible;
+    }
+    .footer-content-top h1{
+        font-size:3em;
+    }
+    .footer-content-bottom li a {
+        font-size:23px;
+        
+
+    }
+    .footer-content-bottom ul{
+        flex-wrap: wrap;
+        
+    }
+    .footer-section-container{
+        margin-top:10px;
+        margin-left:0px;
+        width:auto;
+        margin-bottom: 20px;
+        
+        
+    }
+}
