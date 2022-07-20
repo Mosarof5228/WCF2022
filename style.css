@@ -18,6 +18,7 @@ body{
     
 }
 
+
 /* header style */
 .header-container{
     display:flex;
@@ -27,19 +28,24 @@ body{
     border-radius:10px;
 }
 .col-1-title{
-    font-size:1.7rem;
+    font-size:2.5rem;
     color:white;
 }
 .col-1-para{
-    font-size:0.9em;
+    font-size:1.3em;
     color:white;
 }
 .col-1-button{
     margin-top: 40px;
     padding:5px 15px;
     border-radius: 5px;
-    width:120px;
-    height:30px;
+    width:190px;
+    height:40px;
+    background-color:red;
+    margin-bottom:3em;
+    color:white;
+    font-size:25px;
+
 }
 .player-photo img{
     
@@ -108,6 +114,58 @@ body{
     }
 /* end right site blogs style
 /* end main section */
+
+/* start footer style */
+.footer-section-container{
+    width:100vw; 
+    margin-top:60px;
+    background-color:black;
+    height:auto;
+    /* position:absolute; */
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding:20px;
+
+}
+.footer-content-top{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.footer-content-top h1{
+    font-size:6rem;
+    margin-top:1.5em;
+    margin-bottom:0px;
+    color:white;
+    font-weight: 800;
+}
+
+.footer-content-bottom ul{
+    display:flex;
+    justify-content: center;
+}
+
+.footer-content-bottom li{
+    list-style:none;
+    margin:1.5em;
+}
+.text-link{
+    color:white;
+}
+
+.footer-content-bottom li a{
+    text-decoration:none;
+    font-size:3.0rem;
+    font-weight: 500;
+    color:gold
+}
+
+
+
+
+/* end footer style */
 
 
 
